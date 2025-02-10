@@ -80,24 +80,24 @@ def takeCommand():
     p.terminate()
     return query
 
-# for i in range(3):
-#     speak("Please enter your password")
-#     a = input("Enter Password to open :- ")
-#     pw_file = open("password.txt","r")
-#     pw = pw_file.read()
-#     pw_file.close()
-#     if (a==pw):
-#         print("Hello, I am AudioCompanion. How can I assist you?")
-#         speak("Hello, I am AudioCompanion. How can I assist you?")
-#         break
-#     elif (i==2 and a!=pw):
-#         exit()
-#     elif (a!=pw):
-#         print("Try Again")
-#         speak("Try Again")
+for i in range(3):
+    speak("Please enter your password")
+    a = input("Enter Password to open :- ")
+    pw_file = open("password.txt","r")
+    pw = pw_file.read()
+    pw_file.close()
+    if (a==pw):
+        print("Hello, I am AudioCompanion. How can I assist you?")
+        speak("Hello, I am AudioCompanion. How can I assist you?")
+        break
+    elif (i==2 and a!=pw):
+        exit()
+    elif (a!=pw):
+        print("Try Again")
+        speak("Try Again")
 
-# from GUI import play_gif
-# play_gif
+from GUI import play_gif
+play_gif
 
 if __name__ == "__main__":
     listening = True
