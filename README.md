@@ -21,4 +21,4 @@ The features for the same are as follows:
 18. Focus mode - you can block particular sites for a particular period of time, and you will also get the graph of the productivity.
 19. Google Translator - Translates the spoken English words into any other language which you want.
 20. Automated Notepad - It will go on typing in the notepad file as you go on speaking.
-21.Sending Email - You can compose and send emails along with the subject and message to anyone just by using your voice.
+21. Sending Email - You can compose and send emails along with the subject and message to anyone just by using your voice.
